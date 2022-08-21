@@ -1,0 +1,76 @@
+body {
+    background: url("../img/bg.jpg") no-repeat scroll top center #000000;
+	color: #333;
+	font: 12px/1.75 Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+}
+
+a {
+color: #000;
+}
+a:hover {
+color: lime;
+}
+
+#header {
+height: 200px;
+}
+
+#header h1 {
+text-indent: -9999px;
+}
+
+#download  a{
+background: url("../img/download.jpg");
+display: block;
+text-indent: -9999px;
+height: 200px;
+width: 300px;
+}
+
+
+#wrap {
+background: yellow;
+
+}
+
+#content {
+background: #fff;
+
+}
+
+#content h2 {
+font-size: 275%;
+color: #000;
+}
+
+#content h3 {
+padding: 0 20px;
+font: 18px/1.75 Georgia,serif;
+color: #000;
+font-weight:900;
+font-style:italic;
+}
+
+#content p,ol,li {
+padding: 0 20px;
+color: #333;
+
+}
+
+.slideshow {
+border-bottom: 10px solid #000; }
+.slideshow img {}
+
+
+ul.one {
+list-style-type: disc;
+}
+
+		ul.one li { color:#000; }
+		ul.one li span { color:#333; }
+
+		
+#footer a {
+font-size: 75%;
+color: yellow;
+}
